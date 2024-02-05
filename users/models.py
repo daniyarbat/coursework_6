@@ -1,3 +1,5 @@
+import random
+
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
@@ -5,13 +7,15 @@ NULLABLE = {
     'null': True, 'blank': True
 }
 
+random_code = str(random.randint(00000000, 99999999))
+
 
 class User(AbstractUser):
     username = None
 
     email = models.EmailField(unique=True, verbose_name='email')
     is_active = models.BooleanField(default=False, verbose_name='статус активности')
-    email_verificator = models.CharField(max_length=50, **NULLABLE, verbose_name='код верификации почты')
+    verification_code = models.CharField(max_length=8, default=random_code, verbose_name='код подтверждения почты', **NULLABLE)
 
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []

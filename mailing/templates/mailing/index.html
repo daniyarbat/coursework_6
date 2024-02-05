@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load media_tag %}
+{% load static %}
+
+{% block content %}
+{% for object in object_list %}
+<div class="col-4">
+    <div class="card mb-4 box-shadow">
+        <div class="card-header text-center">
+            <h4 class="my-0 font-weight-normal">
+                {{ object }}
+            </h4>
+        </div>
+        <div class="card-body">
+            {% if object.preview %}
+                <img src="{% media_tag object.preview %}" alt="{{ object }}" class="img-fluid mb-3"/>
+            {% else %}
+                <img src="{% static 'img/default.jpg' %}" alt="{{ object }}" class="img-fluid"/>
+            {% endif %}
+            <p>
+                {{ object.content|truncatechars:150 }}
+            </p>
+            <a href="{% url 'blog:view_article' object.slug %}">Читать дальше</a>
+        </div>
+        <div class="card-footer p-3 small text-muted">
+            {{ object.created_at }}
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+{% endblock %}
