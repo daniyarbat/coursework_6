@@ -1,6 +1,7 @@
 <h5 class="my-0 mr-md-auto font-weight-normal">Cyberstore</h5>
-<nav class="ms-5">
-    <a class="me-1 p-2 btn btn-outline-primary" href="#">Каталог</a>
+<nav class="d-inline-flex ms-5">
+    <a class="me-1 p-2 btn btn-outline-primary" href="{% url 'mailing:home' %}">Главная</a>
+    <a class="me-1 p-2 btn btn-outline-primary" href="{% url 'blog:blog' %}">Блог</a>
 </nav>
 <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
     {% if user.is_authenticated %}
