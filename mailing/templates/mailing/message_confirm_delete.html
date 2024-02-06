@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container" align="center">
+    <br/>
+    <div class="col-3 col-md-6 col-sm-12">
+        <div class="card mb-4 box-shadow">
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    <p>Хотите удалить сообщение "{{ object.title }}"?</p>
+                    <div class="btn-group">
+                        <button type="submit"
+                                class="btn btn-md btn-outline-danger">Подтвердить
+                        </button>
+                        <a href="{% url 'mailing:message_list'%}" type="button"
+                           class="btn btn-md btn-outline-warning">Отмена</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="display-2 text-center mb-4">Мои сообщения</h2>
+<div class="row">
+    <div class="col-9"></div>
+    <div class="col-2">
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <a class="btn btn-warning" style="width: 15rem;"
+               href="{% url 'mailing:create_message' %}">Создать сообщение</a>
+        </div>
+    </div>
+</div>
+<div class="table-responsive">
+    <table class="table text-center">
+        <thead>
+        <tr>
+            <th scope="col">Тема</th>
+            <th scope="col">Текст</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for object in object_list %}
+        <tr>
+            <td>{{ object.title }}</td>
+            <td>{{ object.text }}</td>
+
+            <td>
+                <a class="btn btn-info" href="{% url 'mailing:edit_message' object.pk %}"
+                   role="button">Редактировать</a>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="{% url 'mailing:delete_message' object.pk %}"
+                   role="button">Удалить</a>
+            </td>
+
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from django import forms
 from django.utils import timezone
 
-from mailing.models import Sending
+from mailing.models import Sending, Message
 
 
 class StyleFormMixin:
@@ -21,10 +21,16 @@ class StyleFormMixin:
 class SendingForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Sending
-        exclude = ('next_try', 'sending_owner', 'send_status',)
+        exclude = ('next_try', 'send_status',)
 
 
 class SendingManagerForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Sending
         fields = ('is_active',)
+
+
+class MessageForm(StyleFormMixin, forms.ModelForm):
+    class Meta:
+        model = Message
+        exclude = ('message_owner',)

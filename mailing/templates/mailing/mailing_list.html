@@ -21,7 +21,7 @@
     <table class="table text-center">
         <thead>
         <tr>
-            {% if request.user|has_group:"manager" %}
+            {% if request.user.is_superuser or request.user|has_group:"manager" %}
             <th scope="col">Пользователь</th>
             {% endif %}
             <th scope="col">Наименование рассылки</th>
@@ -34,7 +34,7 @@
         <tbody>
         {% for object in object_list %}
         <tr>
-            {% if request.user|has_group:"manager" %}
+            {% if request.user.is_superuser or request.user|has_group:"manager" %}
             <td>{{ object.options_owner }}</td>
             {% endif %}
             <td>{{ object.send_name }}</td>
