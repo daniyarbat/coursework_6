@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-
+from django.utils import timezone
 
 NULLABLE = {'null': True, 'blank': True}
 
@@ -48,9 +48,9 @@ class Client(models.Model):
 
 class Sending(models.Model):
     send_name = models.CharField(max_length=200, verbose_name='наименование рассылки', default=None)
-    send_start = models.DateTimeField(verbose_name='время начала рассылки', default=None)
-    send_finish = models.DateTimeField(verbose_name='время окончания рассылки', default=None)
-    next_try = models.DateTimeField(verbose_name='следующая попытка', **NULLABLE)
+    send_start = models.DateTimeField(default=timezone.now, verbose_name='время начала рассылки')
+    send_finish = models.DateTimeField(default=timezone.now, verbose_name='время окончания рассылки')
+    next_try = models.DateTimeField(default=timezone.now, verbose_name='следующая попытка', **NULLABLE)
     send_period = models.CharField(max_length=20, verbose_name='периодичность', choices=PERIOD_CHOICES, default='')
     mail_title = models.ForeignKey(Message, on_delete=models.CASCADE, verbose_name='тема рассылки', default=None)
     send_status = models.CharField(max_length=20, verbose_name='статус рассылки', choices=STATUS_CHOICES, default='Создана')
@@ -62,8 +62,8 @@ class Sending(models.Model):
         return f"{self.send_name}"
 
     class Meta:
-        verbose_name = 'настройка'
-        verbose_name_plural = 'настройки'
+        verbose_name = 'настройка рассылки'
+        verbose_name_plural = 'настройки рассылки'
         ordering = ('send_start',)
 
 

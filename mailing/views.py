@@ -4,10 +4,11 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.views.generic import TemplateView, ListView, CreateView, UpdateView, DeleteView, DetailView
 from blog.models import Article
-from mailing.forms import SendingForm, SendingManagerForm, MessageForm, ClientForm
+from mailing.forms import SendingForm, SendingManagerForm, MessageForm, ClientForm, UsersForm
 
 from mailing.models import Sending, Client, Logs, Message
-from mailing.templates.services import set_period
+from mailing.services import set_period
+from users.models import User
 
 
 class BaseTemplateView(TemplateView):
@@ -157,3 +158,24 @@ class ClientUpdateView(LoginRequiredMixin, UpdateView):
 class ClientDeleteView(LoginRequiredMixin, DeleteView):
     model = Client
     success_url = reverse_lazy('mailing:client_list')
+
+
+class LogsListView(LoginRequiredMixin, ListView):
+    model = Logs
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        queryset = queryset.filter(logs_owner=self.request.user)
+        return queryset
+
+
+class UsersListView(LoginRequiredMixin, ListView):
+    model = User
+    template_name = 'mailing/users_list.html'
+
+
+class UsersUpdateView(LoginRequiredMixin, UpdateView):
+    model = User
+    form_class = UsersForm
+    template_name = 'mailing/user_form.html'
+    success_url = reverse_lazy('mailing:users_table')

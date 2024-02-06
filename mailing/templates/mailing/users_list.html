@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="display-2 text-center mb-4">Пользователи сервиса</h2>
+<div class="table-responsive">
+    <table class="table text-center">
+        <thead>
+        <tr>
+            <th scope="col">Почта пользователя</th>
+            <th scope="col">Активен</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for object in object_list %}
+        <tr>
+            <td>{{ object.email }}</td>
+            <td>{{ object.is_active }}</td>
+            <td>
+                <a class="btn btn-info" href="{% url 'mailing:edit_user' object.pk %}"
+                   role="button">Изменить активность</a>
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

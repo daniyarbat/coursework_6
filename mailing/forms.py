@@ -4,6 +4,7 @@ from django import forms
 from django.utils import timezone
 
 from mailing.models import Sending, Message, Client
+from users.models import User
 
 
 class StyleFormMixin:
@@ -40,3 +41,9 @@ class ClientForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Client
         exclude = ('client_owner',)
+
+
+class UsersForm(StyleFormMixin, forms.ModelForm):
+    class Meta:
+        model = User
+        fields = ('is_active',)

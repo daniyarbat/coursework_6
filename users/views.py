@@ -61,7 +61,7 @@ class EmailConfirmView(View):
 class ProfileView(UpdateView):
     model = User
     form_class = UserProfileForm
-    success_url = reverse_lazy('users:login')
+    success_url = reverse_lazy('mailing:home')
 
     def get_object(self, queryset=None):
         return self.request.user

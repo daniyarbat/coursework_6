@@ -8,7 +8,7 @@
         <a class="btn btn-light"
            href="{% url 'mailing:mailing_list' %}">Все рассылки</a>
         <a class="btn btn-light"
-           href="#">Все пользователи</a>
+           href="{% url 'mailing:users_table' %}">Все пользователи</a>
         {% else %}
         <a class="btn btn-light"
            href="{% url 'mailing:mailing_list' %}">Мои рассылки</a>
