@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="display-2 text-center mb-4">Мои клиенты</h2>
+<div class="row">
+    <div class="col-10"></div>
+    <div class="col-2">
+        <a class="btn btn-warning"
+           href="{% url 'mailing:create_client' %}">Создать клиента</a>
+    </div>
+</div>
+<div class="table-responsive">
+    <table class="table text-center">
+        <thead>
+        <tr>
+            <th scope="col">Имя клиента</th>
+            <th scope="col">Email клиента</th>
+            <th scope="col">Комментарий</th>
+            <th scope="col">Название рассылки</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for object in object_list %}
+        <tr>
+            <td>{{ object.client_name }}</td>
+            <td>{{ object.client_email }}</td>
+            <td>{{ object.comment }}</td>
+            <td>{{ object.send_options_name }}</td>
+            <td>
+                <a class="btn btn-info" href="{% url 'mailing:edit_client' object.pk %}" role="button">Редактировать</a>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="{% url 'mailing:delete_client' object.pk %}" role="button">Удалить</a>
+            </td>
+
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

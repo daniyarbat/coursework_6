@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from django import forms
 from django.utils import timezone
 
-from mailing.models import Sending, Message
+from mailing.models import Sending, Message, Client
 
 
 class StyleFormMixin:
@@ -34,3 +34,9 @@ class MessageForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Message
         exclude = ('message_owner',)
+
+
+class ClientForm(StyleFormMixin, forms.ModelForm):
+    class Meta:
+        model = Client
+        exclude = ('client_owner',)
