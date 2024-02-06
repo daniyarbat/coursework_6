@@ -22,3 +22,9 @@ class SendingForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Sending
         exclude = ('next_try', 'sending_owner', 'send_status',)
+
+
+class SendingManagerForm(StyleFormMixin, forms.ModelForm):
+    class Meta:
+        model = Sending
+        fields = ('is_active',)

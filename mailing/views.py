@@ -4,9 +4,10 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.views.generic import TemplateView, ListView, CreateView, UpdateView, DeleteView, DetailView
 from blog.models import Article
-from mailing.forms import SendingForm
+from mailing.forms import SendingForm, SendingManagerForm
 
 from mailing.models import Sending, Client, Logs
+from mailing.templates.services import set_period
 
 
 class BaseTemplateView(TemplateView):
@@ -40,6 +41,7 @@ class SendingListView(LoginRequiredMixin, ListView):
 
 class SendingDetailView(DetailView):
     model = Sending
+    template_name = 'mailing/mailing_detail.html'
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -50,12 +52,13 @@ class SendingDetailView(DetailView):
 class SendingCreateView(LoginRequiredMixin, CreateView):
     model = Sending
     form_class = SendingForm
+    template_name = 'mailing/mailing_form.html'
     success_url = reverse_lazy('mailing:mailing_list')
 
     def form_valid(self, form):
         send_params = form.save()
         send_params.options_owner = self.request.user
-        # send_params.next_try = set_period()
+        send_params.next_try = set_period()
         send_params.save()
 
         return super().form_valid(form)
@@ -64,14 +67,29 @@ class SendingCreateView(LoginRequiredMixin, CreateView):
 class SendingUpdateView(LoginRequiredMixin, UpdateView):
     model = Sending
     form_class = SendingForm
-    success_url = reverse_lazy ( 'mailing:mailing_list' )
+    template_name = 'mailing/mailing_form.html'
+    success_url = reverse_lazy('mailing:mailing_list')
+
+    def form_valid(self, form):
+        send_params = form.save()
+        self.model.send_status = send_params.send_status
+        send_params.next_try = set_period()
+        send_params.save()
+
+        return super().form_valid(form)
+
+    def get_queryset(self, *args, **kwargs):
+        queryset = super().get_queryset(*args, **kwargs)
+        queryset = queryset.filter(id=self.kwargs.get('pk'))
+        return queryset
+
+    def get_form_class(self):
+        if self.request.user.groups.filter(name='manager'):
+            return SendingManagerForm
+        return SendingForm
 
 
 class SendingDeleteView(LoginRequiredMixin, DeleteView):
     model = Sending
+    template_name = 'mailing/mailing_confirm_delete.html'
     success_url = reverse_lazy('mailing:mailing_list')
-
-
-
-
-
