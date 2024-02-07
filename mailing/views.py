@@ -42,7 +42,6 @@ class SendingListView(LoginRequiredMixin, ListView):
                 return queryset.filter(sending_owner=user)
 
 
-
 class SendingCreateView(LoginRequiredMixin, CreateView):
     model = Sending
     form_class = SendingForm
@@ -51,7 +50,7 @@ class SendingCreateView(LoginRequiredMixin, CreateView):
 
     def form_valid(self, form):
         send_params = form.save()
-        send_params.options_owner = self.request.user
+        send_params.sending_owner = self.request.user or self.request.user.is_superuser
         send_params.next_try = set_period()
         send_params.save()
 

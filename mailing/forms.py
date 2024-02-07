@@ -23,7 +23,7 @@ class StyleFormMixin:
 class SendingForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Sending
-        exclude = ('next_try', 'sending_owner',)
+        exclude = ('next_try', 'sending_owner', 'send_status')
 
         widgets = {
             'send_start': DateTimeInput(attrs={'placeholder': 'ДД.ММ.ГГГГ ЧЧ:ММ:СС', 'type': 'datetime-local'}),

@@ -73,6 +73,3 @@ def job():
                         elif obj.send_period == 'Ежемесячно':
                             obj.next_try += timedelta(days=30)
                             obj.save()
-        else:
-            # Добавьте сохранение объекта, если is_active=False
-            obj.save()
