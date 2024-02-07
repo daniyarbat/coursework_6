@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 {% block content %}
 {% load media_tag %}
-{% if request.user.is_superuser %}
-<h2 class="display-2 text-center mb-4">Мои рассылки</h2>
+
+{% if request.user.is_superuser or request.user|has_group:"manager" %}
+<h2 class="display-2 text-center mb-5">Мои рассылки</h2>
 <div class="row">
-    <div class="col-9"></div>
-    <div class="col-3">
+    <div class="col-3 mb-5">
         <div class="btn-group mb-1" role="group">
             <a class="btn btn-warning" style="width: 10rem;"
                href=" {% url 'mailing:create_mailing' %}">Создать рассылку</a>
@@ -15,7 +15,7 @@
     </div>
 </div>
 {% else %}
-<h2 class="display-2 text-center mb-4">Все рассылки</h2>
+<h2 class="display-2 text-center mb-5">Все рассылки</h2>
 {% endif %}
 <div class="table-responsive">
     <table class="table text-center">
@@ -52,18 +52,21 @@
                    role="button">Удалить</a>
             </td>
             {% else %}
-            {% if object.is_active %}
-             <td>
-                <a class="btn btn-danger" href="{% url 'mailing:edit_mailing' object.pk %}"
-                   role="button">Деактивировать</a>
-             </td>
+                {% if object.is_active %}
+                     <td>
+                        <a class="btn btn-danger" href="{% url 'mailing:edit_mailing' object.pk %}"
+                           role="button">Деактивировать</a>
+                     </td>
             {% else %}
-            <td>
-                <button type="button" class="btn btn-secondary" disabled>Отключена</button>
-            </td>
+                    <td>
+                        <button type="button" class="btn btn-secondary" disabled>Отключена</button>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="{% url 'mailing:edit_mailing' object.pk %}"
+                           role="button">Активировать</a>
+                     </td>
+                {% endif %}
             {% endif %}
-            {% endif %}
-
         </tr>
         {% endfor %}
         </tbody>

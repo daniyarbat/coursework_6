@@ -4,12 +4,13 @@
 <h5 class="my-0 mr-md-auto font-weight-normal">Cyberstore</h5>
 <nav class="d-inline-flex ms-5">
     <a class="me-1 p-2 btn btn-light" href="{% url 'mailing:home' %}">Главная</a>
-    {% if request.user|has_group:"manager" %}
+
+    {% if not request.user.is_superuser %}
         <a class="btn btn-light"
            href="{% url 'mailing:mailing_list' %}">Все рассылки</a>
         <a class="btn btn-light"
            href="{% url 'mailing:users_table' %}">Все пользователи</a>
-        {% else %}
+    {% else %}
         <a class="btn btn-light"
            href="{% url 'mailing:mailing_list' %}">Мои рассылки</a>
         <a class="btn btn-light"
@@ -17,7 +18,9 @@
         <a class="btn btn-light"
            href="{% url 'mailing:message_list' %}">Мои сообщения</a>
     {% endif %}
+
     <a class="me-1 p-2 btn btn-light" href="{% url 'blog:blog' %}">Блог</a>
+    <a class="me-1 p-2 btn btn-light" href="/admin/">Админ</a>
 </nav>
 <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
     {% if user.is_authenticated %}

@@ -23,7 +23,6 @@ class BaseTemplateView(TemplateView):
         blog_list = list(Article.objects.all())
         random.shuffle(blog_list)
         context_data['blog_list'] = blog_list[:3]
-        context_data['clients_count'] = len(Client.objects.all())
         return context_data
 
 
@@ -33,11 +32,14 @@ class SendingListView(LoginRequiredMixin, ListView):
 
     def get_queryset(self):
         queryset = super().get_queryset()
-        if self.request.user.groups.filter(name='manager'):
-            queryset = queryset.all()
+        user = self.request.user
+        if user.is_superuser:
+            return queryset.all()
         else:
-            queryset = queryset.filter(sending_owner=self.request.user)
-        return queryset
+            if user.groups.filter(name='manager').exists():
+                return queryset.all()
+            else:
+                return queryset.filter(sending_owner=user)
 
 
 class SendingDetailView(DetailView):
