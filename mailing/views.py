@@ -2,7 +2,7 @@ import random
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
-from django.views.generic import TemplateView, ListView, CreateView, UpdateView, DeleteView, DetailView
+from django.views.generic import TemplateView, ListView, CreateView, UpdateView, DeleteView
 from blog.models import Article
 from mailing.forms import SendingForm, SendingManagerForm, MessageForm, ClientForm, UsersForm
 
@@ -41,15 +41,6 @@ class SendingListView(LoginRequiredMixin, ListView):
             else:
                 return queryset.filter(sending_owner=user)
 
-
-class SendingDetailView(DetailView):
-    model = Sending
-    template_name = 'mailing/mailing_detail.html'
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['title'] = str(context['object'])
-        return context
 
 
 class SendingCreateView(LoginRequiredMixin, CreateView):

@@ -1,0 +1,4018 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-02-01T17:57:25.962Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "�����-�� ������ ��� �������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-02-04T12:03:37.923Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "7",
+      "object_repr": "ddd@ddd.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-02-04T12:03:37.986Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "6",
+      "object_repr": "aaa@aaa.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-02-04T12:03:37.987Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "user2@admin.pro",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-02-04T12:03:37.989Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "user@admin.pro",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-02-04T12:03:37.990Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "u@u.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-02-04T12:03:37.991Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "user3@u.pro",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-02-05T17:58:25.722Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-02-05T17:59:46.822Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "qqq@qqq.com - ivan",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-02-05T17:59:55.023Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-02-06T08:55:15.593Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-02-06T08:58:21.142Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-02-06T08:59:00.509Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "8",
+      "object_repr": "u@u.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-02-06T10:02:07.281Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "1213",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043b\\u0435\\u0434\\u0443\\u044e\\u0449\\u0430\\u044f \\u043f\\u043e\\u043f\\u044b\\u0442\\u043a\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-02-06T10:53:20.245Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "�������� 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-02-06T11:03:31.860Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "8",
+      "object_repr": "u@u.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-02-06T11:03:44.907Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "1213",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-02-06T11:03:52.449Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "�������� 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-02-06T16:46:58.223Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "������ ����������",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u0440\\u0430\\u0441\\u0441\\u044b\\u043b\\u043a\\u0438\", \"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-02-07T05:58:25.404Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "12",
+      "object_repr": "12@ru.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-02-07T05:58:25.416Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "11",
+      "object_repr": "eee@eee.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-02-07T05:58:25.417Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "10",
+      "object_repr": "q@q.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-02-07T05:58:25.419Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "9",
+      "object_repr": "q@q.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-02-07T05:59:23.832Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "8",
+      "object_repr": "manager@admin.pro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-02-07T06:03:23.881Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "8",
+      "object_repr": "manager@admin.pro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Password\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-02-07T06:05:11.860Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "8",
+      "object_repr": "manager@admin.pro",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-02-07T06:07:45.523Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "13",
+      "object_repr": "manager@admin.pro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-02-07T06:09:25.412Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "14",
+      "object_repr": "user@admin.pro",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2024-02-07T10:06:28.038Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "22",
+      "object_repr": "dan@dan.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2024-02-07T10:06:28.067Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "21",
+      "object_repr": "777@mail.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2024-02-07T10:06:28.069Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "20",
+      "object_repr": "123@mail.cpm",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2024-02-07T10:06:28.070Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "19",
+      "object_repr": "124@mail.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2024-02-07T10:06:28.072Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "18",
+      "object_repr": "12@mail.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2024-02-07T10:06:28.073Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "17",
+      "object_repr": "123@mail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2024-02-07T10:06:28.074Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "23",
+      "object_repr": "1234@qwe.rt",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2024-02-07T10:06:36.251Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "14",
+      "object_repr": "user@admin.pro",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add ������������",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change ������������",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete ������������",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view ������������",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add ������",
+      "content_type": 7,
+      "codename": "add_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change ������",
+      "content_type": 7,
+      "codename": "change_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete ������",
+      "content_type": 7,
+      "codename": "delete_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view ������",
+      "content_type": 7,
+      "codename": "view_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add ������",
+      "content_type": 8,
+      "codename": "add_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change ������",
+      "content_type": 8,
+      "codename": "change_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete ������",
+      "content_type": 8,
+      "codename": "delete_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view ������",
+      "content_type": 8,
+      "codename": "view_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add ���������",
+      "content_type": 9,
+      "codename": "add_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change ���������",
+      "content_type": 9,
+      "codename": "change_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete ���������",
+      "content_type": 9,
+      "codename": "delete_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view ���������",
+      "content_type": 9,
+      "codename": "view_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add ���������",
+      "content_type": 10,
+      "codename": "add_sending"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change ���������",
+      "content_type": 10,
+      "codename": "change_sending"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete ���������",
+      "content_type": 10,
+      "codename": "delete_sending"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view ���������",
+      "content_type": 10,
+      "codename": "view_sending"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add ���",
+      "content_type": 11,
+      "codename": "add_logs"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change ���",
+      "content_type": 11,
+      "codename": "change_logs"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete ���",
+      "content_type": 11,
+      "codename": "delete_logs"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view ���",
+      "content_type": 11,
+      "codename": "view_logs"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add django job",
+      "content_type": 12,
+      "codename": "add_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change django job",
+      "content_type": 12,
+      "codename": "change_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete django job",
+      "content_type": 12,
+      "codename": "delete_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view django job",
+      "content_type": 12,
+      "codename": "view_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add django job execution",
+      "content_type": 13,
+      "codename": "add_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change django job execution",
+      "content_type": 13,
+      "codename": "change_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete django job execution",
+      "content_type": 13,
+      "codename": "delete_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view django job execution",
+      "content_type": 13,
+      "codename": "view_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "manager",
+      "permissions": [
+        30,
+        32,
+        42,
+        44,
+        34,
+        36,
+        38,
+        40
+      ]
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "blog",
+      "model": "article"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "mailing",
+      "model": "client"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "mailing",
+      "model": "message"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "mailing",
+      "model": "sending"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "mailing",
+      "model": "logs"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "django_apscheduler",
+      "model": "djangojob"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "django_apscheduler",
+      "model": "djangojobexecution"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "bzzldnlfhnrp2e7i50l96kxbzi86687j",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hCgDoMu3XsGMgOjVA0kpV0Z726bdKHb997_bxVpmUtcukxxzOqsrDr8Mqb0lLqJ_KB6bzq1Ok8j6y3Ru-362rK8Lnv7d1Col3WNKYn1OLggA4K9GQfGSMoQOJFFyU7CgAheVsIcjnwyIMDGmYDZk_p8AdmkN6M:1rXfFX:oEFem1Yl8ed-IG3y4-uBcweVfnWr1KjlYGQmNDUh5hY",
+      "expire_date": "2024-02-21T10:33:51.910Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ienhnnbfxb0m1jyf5oapxudq4tk7omi6",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hCgDoMu3XsGMgOjVA0kpV0Z726bdKHb997_bxVpmUtcukxxzOqsrDr8Mqb0lLqJ_KB6bzq1Ok8j6y3Ru-362rK8Lnv7d1Col3WNKYn1OLggA4K9GQfGSMoQOJFFyU7CgAheVsIcjnwyIMDGmYDZk_p8AdmkN6M:1rXPW0:-ApkrYThHmRhC2KseBvxvukV4xzoHAjzPX4i7i21fcc",
+      "expire_date": "2024-02-20T17:45:48.780Z"
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 1,
+    "fields": {
+      "title": "���� ������",
+      "text": "�������� ���� ������:\r\n< 100% - 500$\r\n< 90% - 400$\r\n< 80% - 300$\r\n> 80% - ��� �������",
+      "message_owner": 1
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 3,
+    "fields": {
+      "title": "����� �����",
+      "text": "������ - 450 �����\r\n���� - 495 �����\r\n����� - 5,5 �����",
+      "message_owner": 1
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 4,
+    "fields": {
+      "title": "��������� � 9:00",
+      "text": "���� ������ �����������",
+      "message_owner": 1
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 1,
+    "fields": {
+      "client_email": "qqq@qqq.com",
+      "client_name": "Ivan",
+      "comment": "",
+      "client_owner": 1
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 2,
+    "fields": {
+      "client_email": "vasya@u.ru",
+      "client_name": "�������",
+      "comment": "",
+      "client_owner": 1
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 3,
+    "fields": {
+      "client_email": "1@sky.pro",
+      "client_name": "����",
+      "comment": "",
+      "client_owner": 1
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 4,
+    "fields": {
+      "client_email": "2@sky.pro",
+      "client_name": "����",
+      "comment": "",
+      "client_owner": 1
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 5,
+    "fields": {
+      "client_email": "3@sky.pro",
+      "client_name": "Helen",
+      "comment": "",
+      "client_owner": 1
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 6,
+    "fields": {
+      "client_email": "john@sky.pro",
+      "client_name": "John",
+      "comment": "",
+      "client_owner": 1
+    }
+  },
+  {
+    "model": "mailing.sending",
+    "pk": 5,
+    "fields": {
+      "send_name": "�������� ����� �����",
+      "send_start": "2024-02-07T12:27:00Z",
+      "send_finish": "2024-02-07T12:28:00Z",
+      "next_try": "2024-02-07T13:39:09.828Z",
+      "send_period": "���������",
+      "mail_title": 3,
+      "send_status": "���������",
+      "sending_owner": 1,
+      "is_active": false,
+      "client_email": [
+        5,
+        1,
+        6,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "mailing.sending",
+    "pk": 6,
+    "fields": {
+      "send_name": "�����-�� ��������",
+      "send_start": "2024-02-06T22:23:00Z",
+      "send_finish": "2024-02-06T16:25:14Z",
+      "next_try": "2024-02-07T13:39:02.630Z",
+      "send_period": "���������",
+      "mail_title": 1,
+      "send_status": "���������",
+      "sending_owner": 1,
+      "is_active": false,
+      "client_email": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "mailing.sending",
+    "pk": 7,
+    "fields": {
+      "send_name": "������ ����������",
+      "send_start": "2024-02-06T22:49:00Z",
+      "send_finish": "2024-02-06T22:50:00Z",
+      "next_try": "2024-02-07T13:39:06.329Z",
+      "send_period": "���������",
+      "mail_title": 4,
+      "send_status": "���������",
+      "sending_owner": 1,
+      "is_active": false,
+      "client_email": [
+        5,
+        1,
+        6,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "mailing.sending",
+    "pk": 8,
+    "fields": {
+      "send_name": "�������� ��������",
+      "send_start": "2024-02-07T13:34:00Z",
+      "send_finish": "2024-02-07T07:27:29Z",
+      "next_try": "2024-02-07T13:39:16.975Z",
+      "send_period": "���������",
+      "mail_title": 4,
+      "send_status": "���������",
+      "sending_owner": null,
+      "is_active": false,
+      "client_email": [
+        5,
+        1,
+        6,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "mailing.sending",
+    "pk": 9,
+    "fields": {
+      "send_name": "��� ���� ��������",
+      "send_start": "2024-02-07T16:10:00Z",
+      "send_finish": "2024-02-07T10:11:36Z",
+      "next_try": "2024-02-07T13:39:20.482Z",
+      "send_period": "���������",
+      "mail_title": 4,
+      "send_status": "���������",
+      "sending_owner": null,
+      "is_active": false,
+      "client_email": [
+        5,
+        1,
+        6,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "mailing.sending",
+    "pk": 10,
+    "fields": {
+      "send_name": "����",
+      "send_start": "2024-02-07T13:31:00Z",
+      "send_finish": "2024-02-07T10:32:00Z",
+      "next_try": "2024-02-07T13:39:13.180Z",
+      "send_period": "���������",
+      "mail_title": 1,
+      "send_status": "���������",
+      "sending_owner": null,
+      "is_active": false,
+      "client_email": [
+        5,
+        1,
+        6,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "mailing.sending",
+    "pk": 11,
+    "fields": {
+      "send_name": "����� ��������",
+      "send_start": "2024-02-07T13:43:00.002Z",
+      "send_finish": "2024-02-07T13:45:00Z",
+      "next_try": "2024-02-08T13:42:59.759Z",
+      "send_period": "���������",
+      "mail_title": 1,
+      "send_status": "�������",
+      "sending_owner": null,
+      "is_active": true,
+      "client_email": [
+        5,
+        1,
+        6,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "mailing.sending",
+    "pk": 12,
+    "fields": {
+      "send_name": "test",
+      "send_start": "2024-02-07T13:49:00.002Z",
+      "send_finish": "2024-02-07T13:52:00Z",
+      "next_try": "2024-02-14T13:48:39.331Z",
+      "send_period": "�����������",
+      "mail_title": 4,
+      "send_status": "�������",
+      "sending_owner": null,
+      "is_active": true,
+      "client_email": [
+        5,
+        1,
+        6,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 1,
+    "fields": {
+      "send_name": "123123132",
+      "last_try": "2024-02-06T22:28:00.008Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": 1,
+      "send_email": "qqq@qqq.com"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 2,
+    "fields": {
+      "send_name": "123123132",
+      "last_try": "2024-02-06T22:28:04.598Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": 1,
+      "send_email": "vasya@u.ru"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 3,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:45:00.007Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "3@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 4,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:45:00.014Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "qqq@qqq.com"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 5,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:45:00.016Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "john@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 6,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:45:00.018Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "vasya@u.ru"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 7,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:45:00.020Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "1@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 8,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:45:00.022Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "2@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 9,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:49:00.035Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": 1,
+      "send_email": "3@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 10,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:49:00.058Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": 1,
+      "send_email": "qqq@qqq.com"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 11,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:49:00.093Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": 1,
+      "send_email": "john@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 12,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:49:00.110Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": 1,
+      "send_email": "vasya@u.ru"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 13,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:49:00.125Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": 1,
+      "send_email": "1@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 14,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-06T22:49:00.127Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": 1,
+      "send_email": "2@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 15,
+    "fields": {
+      "send_name": "����� �����",
+      "last_try": "2024-02-06T23:06:00.005Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": 1,
+      "send_email": "qqq@qqq.com"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 16,
+    "fields": {
+      "send_name": "����� �����",
+      "last_try": "2024-02-06T23:06:00.024Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": 1,
+      "send_email": "vasya@u.ru"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 17,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:00.014Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "3@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 18,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:04.529Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "qqq@qqq.com"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 19,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:04.531Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "john@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 20,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:04.533Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "vasya@u.ru"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 21,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:04.535Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "1@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 22,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:04.537Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "2@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 23,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:00.149Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "3@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 24,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:04.663Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "qqq@qqq.com"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 25,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:04.666Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "john@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 26,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:04.669Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "vasya@u.ru"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 27,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:04.671Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "1@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 28,
+    "fields": {
+      "send_name": "���� ������",
+      "last_try": "2024-02-07T13:43:04.673Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "2@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 29,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.017Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "3@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 30,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.017Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "3@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 31,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.020Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "qqq@qqq.com"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 32,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.020Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "qqq@qqq.com"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 33,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.026Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "john@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 34,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.027Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "john@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 35,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.029Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "vasya@u.ru"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 36,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.029Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "vasya@u.ru"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 37,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.030Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "1@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 38,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.031Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "1@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 39,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.032Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "2@sky.pro"
+    }
+  },
+  {
+    "model": "mailing.logs",
+    "pk": 40,
+    "fields": {
+      "send_name": "��������� � 9:00",
+      "last_try": "2024-02-07T13:49:00.032Z",
+      "status_try": "�������",
+      "server_answer": "",
+      "logs_owner": null,
+      "send_email": "2@sky.pro"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$D1WVljEaPxCkm4RfnW3uin$DaA9pRy7xfmrpM79ZjxoiV188CxWj43JZlPSf6TrkZs=",
+      "last_login": "2024-02-07T10:33:51.909Z",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "Admin",
+      "is_staff": true,
+      "date_joined": "2024-02-01T14:15:43.412Z",
+      "email": "admin@admin.pro",
+      "is_active": true,
+      "verification_code": "39871328",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Dtq9frYF7tlFSEYK829lId$5pkD6jnHJeUpp/mRWqbiKT4RrE5lJ8I1SPCX41yl3R4=",
+      "last_login": "2024-02-07T10:32:19.098Z",
+      "is_superuser": false,
+      "first_name": "Manager",
+      "last_name": "",
+      "is_staff": true,
+      "date_joined": "2024-02-07T06:05:54Z",
+      "email": "manager@admin.pro",
+      "is_active": true,
+      "verification_code": "93667229",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 15,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$WwFkde5NLGOXOfF3nmLZKv$mAPnMG35XsX7nm5SP+ueFcpxBOn/LvlL3yoUpdljOHw=",
+      "last_login": "2024-02-07T08:10:36.550Z",
+      "is_superuser": false,
+      "first_name": "Client",
+      "last_name": "",
+      "is_staff": false,
+      "date_joined": "2024-02-07T06:11:59.697Z",
+      "email": "client@admin.pro",
+      "is_active": true,
+      "verification_code": "93667229",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 16,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$OvLb9P1CjNvJCWH3NTYumo$OE2kVaKQWKrStJR2BIgpScQSF6bPp6UgZweYiN6JbEQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "date_joined": "2024-02-07T08:11:50.770Z",
+      "email": "client2@admin.pro",
+      "is_active": true,
+      "verification_code": "39101034",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 1,
+    "fields": {
+      "title": "�����-�� ������ ��� �������",
+      "slug": "kakaya-to-statya-dlya-primera",
+      "content": "���������������. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc",
+      "preview": "",
+      "is_published": true,
+      "created_at": "2024-02-01T17:57:25.841Z",
+      "views": 9
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 2,
+    "fields": {
+      "title": "����� ������",
+      "slug": "novaya-statya",
+      "content": "����� ������ � �����-�� ����������",
+      "preview": "blog_img/post3.jpg",
+      "is_published": true,
+      "created_at": "2024-02-03T10:32:57.034Z",
+      "views": 2
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 3,
+    "fields": {
+      "title": "��� Python",
+      "slug": "pro-python",
+      "content": "Python - ��� ���������������, ����������������, ������ ���������� ���� ����������������, ������� ��� ������ ����� ��� �������� � ������� ������� � 1991 ����. �� ������ ���� ����� �� ����� ���������� ������ ���������������� ��������� ����� ��������, ���������� ���� � �������� ����������� ����������.\r\n\r\n��� ��������� �������� ������������ Python:\r\n\r\n1. �������� � ����������:\r\nPython �������� ����� ��������� ����������, ��� ������ ��� ��������� ��� ����������.\r\n���������� ���� - ���� �� �������� ����������� Python. ��� ��������� ����� �������� � ������������ ���.\r\n2. ������������������:\r\nPython - ���������������� ����, ��� ��������, ��� ��� ����������� ���������, ��� ��������������� ����������.\r\n��� ������ ��� ����� ������ � ������������ ������� ������������ � ����������.\r\n3. ���������������:\r\n��������� ��������������� � Python ��������� ��������� ��������� ����� ������������.\r\n��� ����������� � �������������� ������� � ���������.\r\n4. �������� ����������� ����������:\r\nPython ������������ � �������� ����������� �����������, ���������� ������ � ����������� ��� ������� ��������� �����.\r\n��� ��������� ���������� � ��������� ������������� ������������� ��������� ���������.\r\n5. �����-���������������:\r\nPython ������������ ��������� ������������ ������, ��� ������ ��� �����-�������������.\r\n���, ���������� �� Python, ����� �������� �� ��������� ���������� ��� ���������.\r\n6. �������� ����������:\r\nPython ����� �������� � �������� ���������� �������������, ��� ������������ ���������� ���������� � ��������� �����.\r\n���������� ��������� �������� � ���������, ��������� ��� �������������.\r\n7. ���������� � ��������� ��������:\r\nPython ������ ������������ � ��������� ��������, ����� ��� ���-����������, ����� � ������, ������������� ���������, �������������, ���������� ��� � ������ ������.",
+      "preview": "blog_img/python.jpg",
+      "is_published": true,
+      "created_at": "2024-02-05T16:39:02.162Z",
+      "views": 2
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 5,
+    "fields": {
+      "title": "��� Python",
+      "slug": "oop-python",
+      "content": "Python �������� ������ ������ ����������������, � ��� ��������� ��������-���������������� ���������������� (���) ��������� ������������� ��������� ������, ����������������� � �������� ������������ ���. � ���� ������ �� ���������� �������� ��������� ��� � Python � ����������� ������� ������������� ������� � ��������.\r\n\r\n�������� ��������� ��� � Python\r\n1. ������ � �������\r\n����� - ��� ������, ����������� �������� (����������) � ������ (�������), ������� ����� ���� ������������ ���������. ������ - ��� ��������� ������, ������� �������� ������ ����������� ���������� ���������.\r\n\r\npython\r\nCopy code\r\nclass Car:\r\n    def __init__(self, brand, model):\r\n        self.brand = brand\r\n        self.model = model\r\n\r\n    def display_info(self):\r\n        print(f\"{self.brand} {self.model}\")\r\n\r\n# �������� ������� ������ Car\r\nmy_car = Car(\"Toyota\", \"Camry\")\r\n\r\n# ������������� ������ �������\r\nmy_car.display_info()\r\n\r\n2. ������������\r\n������������ ��������� ��������� ����� ������ �� ������ ������������. �������� ��������� �������� � ������ �����������.\r\n\r\npython\r\nCopy code\r\nclass ElectricCar(Car):\r\n    def __init__(self, brand, model, battery_capacity):\r\n        super().__init__(brand, model)\r\n        self.battery_capacity = battery_capacity\r\n\r\n    def display_info(self):\r\n        print(f\"{self.brand} {self.model} (Electric)\")\r\n\r\n# �������� ������� ������ ElectricCar\r\nmy_electric_car = ElectricCar(\"Tesla\", \"Model S\", \"100 kWh\")\r\n\r\n# ������������� ������ ������� ElectricCar\r\nmy_electric_car.display_info()\r\n\r\n3. ������������\r\n������������ ��������� ������������ ������ � ��������� � ������� ������. ��������, ������������ � �������� �������������, ��������� ����������.\r\n\r\npython\r\nCopy code\r\nclass BankAccount:\r\n    def __init__(self, balance):\r\n        self.__balance = balance\r\n\r\n    def get_balance(self):\r\n        return self.__balance\r\n\r\n# �������� ������� ������ BankAccount\r\naccount = BankAccount(1000)\r\n\r\n# ������� ������� � ���������� ��������\r\nprint(account.__balance)  # ������: 'BankAccount' object has no attribute '__balance'\r\n\r\n����������\r\nPython ������������� ��������� ������������ ��� ������������� ��������-���������������� ����������������, ����� ��� ����� ��������, ��������� � ������. ����������� ��� ��������� ��� ��������� ����������� ������ ���� � ��������� ��� �������������.",
+      "preview": "blog_img/python2.jpg",
+      "is_published": true,
+      "created_at": "2024-02-05T16:43:00.966Z",
+      "views": 0
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojob",
+    "pk": "delete_old_job_executions",
+    "fields": {
+      "next_run_time": "2024-02-07T17:59:00Z",
+      "job_state": "gAWVNAQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwZZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMBGZ1bmOUjEJtYWlsaW5nLm1hbmFnZW1lbnQuY29tbWFuZHMuc3RhcnRfc2VuZGVyOmRlbGV0ZV9vbGRfam9iX2V4ZWN1dGlvbnOUjAd0cmlnZ2VylIwZYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3JvbpSMC0Nyb25UcmlnZ2VylJOUKYGUfZQoaAFLAowIdGltZXpvbmWUjAhidWlsdGluc5SMB2dldGF0dHKUk5SMCHpvbmVpbmZvlIwIWm9uZUluZm+Uk5SMCV91bnBpY2tsZZSGlFKUjAtBc2lhL0FsbWF0eZRLAYaUUpSMCnN0YXJ0X2RhdGWUTowIZW5kX2RhdGWUTowGZmllbGRzlF2UKIwgYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3Jvbi5maWVsZHOUjAlCYXNlRmllbGSUk5QpgZR9lCiMBG5hbWWUjAR5ZWFylIwKaXNfZGVmYXVsdJSIjAtleHByZXNzaW9uc5RdlIwlYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3Jvbi5leHByZXNzaW9uc5SMDUFsbEV4cHJlc3Npb26Uk5QpgZR9lIwEc3RlcJROc2JhdWJoHYwKTW9udGhGaWVsZJSTlCmBlH2UKGgijAVtb250aJRoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MD0RheU9mTW9udGhGaWVsZJSTlCmBlH2UKGgijANkYXmUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjAlXZWVrRmllbGSUk5QpgZR9lChoIowEd2Vla5RoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MDkRheU9mV2Vla0ZpZWxklJOUKYGUfZQoaCKMC2RheV9vZl93ZWVrlGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHymBlH2UKGgijARob3VylGgkiWglXZRoJ4wPUmFuZ2VFeHByZXNzaW9ulJOUKYGUfZQoaCxOjAVmaXJzdJRLF4wEbGFzdJRLF3ViYXViaB8pgZR9lChoIowGbWludXRllGgkiWglXZRoUimBlH2UKGgsTmhVSztoVks7dWJhdWJoHymBlH2UKGgijAZzZWNvbmSUaCSIaCVdlGhSKYGUfZQoaCxOaFVLAGhWSwB1YmF1YmWMBmppdHRlcpROdWKMCGV4ZWN1dG9ylIwHZGVmYXVsdJSMBGFyZ3OUKYwGa3dhcmdzlH2UaCJoA4wSbWlzZmlyZV9ncmFjZV90aW1llEsBjAhjb2FsZXNjZZSIjA1tYXhfaW5zdGFuY2VzlEsBjA1uZXh0X3J1bl90aW1llIwIZGF0ZXRpbWWUjAhkYXRldGltZZSTlEMKB+gCBxc7AAAAAJRoGIaUUpR1Lg=="
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojob",
+    "pk": "my_job",
+    "fields": {
+      "next_run_time": "2024-02-07T10:57:00Z",
+      "job_state": "gAWV5gMAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwGbXlfam9ilIwEZnVuY5SMFG1haWxpbmcuc2VydmljZXM6am9ilIwHdHJpZ2dlcpSMGWFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb26UjAtDcm9uVHJpZ2dlcpSTlCmBlH2UKGgBSwKMCHRpbWV6b25llIwIYnVpbHRpbnOUjAdnZXRhdHRylJOUjAh6b25laW5mb5SMCFpvbmVJbmZvlJOUjAlfdW5waWNrbGWUhpRSlIwLQXNpYS9BbG1hdHmUSwGGlFKUjApzdGFydF9kYXRllE6MCGVuZF9kYXRllE6MBmZpZWxkc5RdlCiMIGFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZmllbGRzlIwJQmFzZUZpZWxklJOUKYGUfZQojARuYW1llIwEeWVhcpSMCmlzX2RlZmF1bHSUiIwLZXhwcmVzc2lvbnOUXZSMJWFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZXhwcmVzc2lvbnOUjA1BbGxFeHByZXNzaW9ulJOUKYGUfZSMBHN0ZXCUTnNiYXViaB2MCk1vbnRoRmllbGSUk5QpgZR9lChoIowFbW9udGiUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA9EYXlPZk1vbnRoRmllbGSUk5QpgZR9lChoIowDZGF5lGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwJV2Vla0ZpZWxklJOUKYGUfZQoaCKMBHdlZWuUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA5EYXlPZldlZWtGaWVsZJSTlCmBlH2UKGgijAtkYXlfb2Zfd2Vla5RoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB8pgZR9lChoIowEaG91cpRoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB8pgZR9lChoIowGbWludXRllGgkiWglXZRoKSmBlH2UaCxLAXNiYXViaB8pgZR9lChoIowGc2Vjb25klGgkiGglXZRoJ4wPUmFuZ2VFeHByZXNzaW9ulJOUKYGUfZQoaCxOjAVmaXJzdJRLAIwEbGFzdJRLAHViYXViZYwGaml0dGVylE51YowIZXhlY3V0b3KUjAdkZWZhdWx0lIwEYXJnc5QpjAZrd2FyZ3OUfZRoIowDam9ilIwSbWlzZmlyZV9ncmFjZV90aW1llEsBjAhjb2FsZXNjZZSIjA1tYXhfaW5zdGFuY2VzlEsBjA1uZXh0X3J1bl90aW1llIwIZGF0ZXRpbWWUjAhkYXRldGltZZSTlEMKB+gCBxA5AAAAAJRoGIaUUpR1Lg=="
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 1,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:15:00Z",
+      "duration": "0.08",
+      "finished": "1707232500.08",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 2,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:16:00Z",
+      "duration": "0.00",
+      "finished": "1707232560.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 3,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:17:00Z",
+      "duration": "0.00",
+      "finished": "1707232620.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 4,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:18:00Z",
+      "duration": "0.00",
+      "finished": "1707232680.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 5,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:19:00Z",
+      "duration": "0.00",
+      "finished": "1707232740.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 6,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:20:00Z",
+      "duration": "0.00",
+      "finished": "1707232800.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 7,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:21:00Z",
+      "duration": "0.00",
+      "finished": "1707232860.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 8,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:22:00Z",
+      "duration": "0.00",
+      "finished": "1707232920.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 9,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:23:00Z",
+      "duration": "0.00",
+      "finished": "1707232980.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 10,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:24:00Z",
+      "duration": "0.00",
+      "finished": "1707233040.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 11,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:25:00Z",
+      "duration": "0.00",
+      "finished": "1707233100.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 12,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:26:00Z",
+      "duration": "0.00",
+      "finished": "1707233160.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 13,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:27:00Z",
+      "duration": "0.00",
+      "finished": "1707233220.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 14,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:28:00Z",
+      "duration": "0.00",
+      "finished": "1707233280.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 15,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:29:00Z",
+      "duration": "0.00",
+      "finished": "1707233340.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 16,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:30:00Z",
+      "duration": "0.00",
+      "finished": "1707233400.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 17,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:31:00Z",
+      "duration": "0.00",
+      "finished": "1707233460.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 18,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:32:00Z",
+      "duration": "0.00",
+      "finished": "1707233520.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 19,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:33:00Z",
+      "duration": "0.00",
+      "finished": "1707233580.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 20,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:34:00Z",
+      "duration": "0.00",
+      "finished": "1707233640.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 21,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:35:00Z",
+      "duration": "0.00",
+      "finished": "1707233700.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 22,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:36:00Z",
+      "duration": "0.00",
+      "finished": "1707233760.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 23,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:37:00Z",
+      "duration": "0.00",
+      "finished": "1707233820.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 24,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:38:00Z",
+      "duration": "0.00",
+      "finished": "1707233880.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 25,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:39:00Z",
+      "duration": "0.00",
+      "finished": "1707233940.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 26,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:40:00Z",
+      "duration": "0.00",
+      "finished": "1707234000.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 27,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:41:00Z",
+      "duration": "0.00",
+      "finished": "1707234060.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 28,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:42:00Z",
+      "duration": "0.00",
+      "finished": "1707234120.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 29,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:43:00Z",
+      "duration": "0.00",
+      "finished": "1707234180.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 30,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:44:00Z",
+      "duration": "0.00",
+      "finished": "1707234240.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 31,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:45:00Z",
+      "duration": "0.00",
+      "finished": "1707234300.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 32,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T15:46:00Z",
+      "duration": "0.00",
+      "finished": "1707234360.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 33,
+    "fields": {
+      "job": "my_job",
+      "status": "Missed!",
+      "run_time": "2024-02-06T16:18:00Z",
+      "duration": "59.43",
+      "finished": "1707236339.43",
+      "exception": "Run time of job 'my_job' was missed!",
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 34,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:19:00Z",
+      "duration": "0.00",
+      "finished": "1707236340.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 35,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:20:00Z",
+      "duration": "0.00",
+      "finished": "1707236400.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 36,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:21:00Z",
+      "duration": "0.00",
+      "finished": "1707236460.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 37,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:22:00Z",
+      "duration": "0.00",
+      "finished": "1707236520.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 38,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:23:00Z",
+      "duration": "0.01",
+      "finished": "1707236580.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 39,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:24:00Z",
+      "duration": "0.00",
+      "finished": "1707236640.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 40,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:25:00Z",
+      "duration": "0.00",
+      "finished": "1707236700.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 41,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:26:00Z",
+      "duration": "0.00",
+      "finished": "1707236760.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 42,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:27:00Z",
+      "duration": "0.00",
+      "finished": "1707236820.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 43,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:28:00Z",
+      "duration": "4.60",
+      "finished": "1707236884.60",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 44,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:29:00Z",
+      "duration": "0.00",
+      "finished": "1707236940.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 45,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:30:00Z",
+      "duration": "0.00",
+      "finished": "1707237000.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 46,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:31:00Z",
+      "duration": "0.00",
+      "finished": "1707237060.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 47,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:32:00Z",
+      "duration": "0.01",
+      "finished": "1707237120.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 48,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:33:00Z",
+      "duration": "0.00",
+      "finished": "1707237180.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 49,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:34:00Z",
+      "duration": "0.00",
+      "finished": "1707237240.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 50,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:35:00Z",
+      "duration": "0.00",
+      "finished": "1707237300.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 51,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:36:00Z",
+      "duration": "0.01",
+      "finished": "1707237360.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 52,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:37:00Z",
+      "duration": "0.00",
+      "finished": "1707237420.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 53,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:38:00Z",
+      "duration": "0.00",
+      "finished": "1707237480.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 54,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:39:00Z",
+      "duration": "0.00",
+      "finished": "1707237540.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 55,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:40:00Z",
+      "duration": "0.00",
+      "finished": "1707237600.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 56,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:41:00Z",
+      "duration": "0.00",
+      "finished": "1707237660.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 57,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:42:00Z",
+      "duration": "0.00",
+      "finished": "1707237720.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 58,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:43:00Z",
+      "duration": "0.01",
+      "finished": "1707237780.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 59,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:44:00Z",
+      "duration": "0.00",
+      "finished": "1707237840.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 60,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:45:00Z",
+      "duration": "0.03",
+      "finished": "1707237900.03",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 61,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:46:00Z",
+      "duration": "0.01",
+      "finished": "1707237960.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 62,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:47:00Z",
+      "duration": "0.00",
+      "finished": "1707238020.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 63,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:48:00Z",
+      "duration": "0.00",
+      "finished": "1707238080.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 64,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:49:00Z",
+      "duration": "0.16",
+      "finished": "1707238140.16",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 65,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:50:00Z",
+      "duration": "0.01",
+      "finished": "1707238200.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 66,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:51:00Z",
+      "duration": "0.01",
+      "finished": "1707238260.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 67,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:52:00Z",
+      "duration": "0.01",
+      "finished": "1707238320.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 68,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:53:00Z",
+      "duration": "0.00",
+      "finished": "1707238380.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 69,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:54:00Z",
+      "duration": "0.00",
+      "finished": "1707238440.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 70,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:55:00Z",
+      "duration": "0.00",
+      "finished": "1707238500.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 71,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:56:00Z",
+      "duration": "0.00",
+      "finished": "1707238560.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 72,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:57:00Z",
+      "duration": "0.01",
+      "finished": "1707238620.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 73,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:58:00Z",
+      "duration": "0.00",
+      "finished": "1707238680.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 74,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T16:59:00Z",
+      "duration": "0.00",
+      "finished": "1707238740.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 75,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:00:00Z",
+      "duration": "0.00",
+      "finished": "1707238800.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 76,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:01:00Z",
+      "duration": "0.00",
+      "finished": "1707238860.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 77,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:02:00Z",
+      "duration": "0.00",
+      "finished": "1707238920.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 78,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:03:00Z",
+      "duration": "0.00",
+      "finished": "1707238980.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 79,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:04:00Z",
+      "duration": "0.01",
+      "finished": "1707239040.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 80,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:05:00Z",
+      "duration": "0.00",
+      "finished": "1707239100.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 81,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:06:00Z",
+      "duration": "0.03",
+      "finished": "1707239160.03",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 82,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:07:00Z",
+      "duration": "0.00",
+      "finished": "1707239220.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 83,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:08:00Z",
+      "duration": "0.01",
+      "finished": "1707239280.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 84,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:09:00Z",
+      "duration": "0.00",
+      "finished": "1707239340.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 85,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:10:00Z",
+      "duration": "0.00",
+      "finished": "1707239400.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 86,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:11:00Z",
+      "duration": "0.01",
+      "finished": "1707239460.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 87,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:12:00Z",
+      "duration": "0.00",
+      "finished": "1707239520.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 88,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:13:00Z",
+      "duration": "0.01",
+      "finished": "1707239580.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 89,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:14:00Z",
+      "duration": "0.01",
+      "finished": "1707239640.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 90,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:15:00Z",
+      "duration": "0.00",
+      "finished": "1707239700.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 91,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:16:00Z",
+      "duration": "0.00",
+      "finished": "1707239760.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 92,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:17:00Z",
+      "duration": "0.01",
+      "finished": "1707239820.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 93,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:18:00Z",
+      "duration": "0.00",
+      "finished": "1707239880.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 94,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:19:00Z",
+      "duration": "0.01",
+      "finished": "1707239940.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 95,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:20:00Z",
+      "duration": "0.00",
+      "finished": "1707240000.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 96,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:21:00Z",
+      "duration": "0.01",
+      "finished": "1707240060.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 97,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:22:00Z",
+      "duration": "0.00",
+      "finished": "1707240120.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 98,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:23:00Z",
+      "duration": "0.00",
+      "finished": "1707240180.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 99,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:24:00Z",
+      "duration": "0.00",
+      "finished": "1707240240.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 100,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:25:00Z",
+      "duration": "0.00",
+      "finished": "1707240300.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 101,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:26:00Z",
+      "duration": "0.01",
+      "finished": "1707240360.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 102,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:27:00Z",
+      "duration": "0.00",
+      "finished": "1707240420.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 103,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:28:00Z",
+      "duration": "0.00",
+      "finished": "1707240480.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 104,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:29:00Z",
+      "duration": "0.00",
+      "finished": "1707240540.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 105,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:30:00Z",
+      "duration": "0.01",
+      "finished": "1707240600.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 106,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:31:00Z",
+      "duration": "0.00",
+      "finished": "1707240660.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 107,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:32:00Z",
+      "duration": "0.00",
+      "finished": "1707240720.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 108,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:33:00Z",
+      "duration": "0.01",
+      "finished": "1707240780.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 109,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:34:00Z",
+      "duration": "0.00",
+      "finished": "1707240840.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 110,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:35:00Z",
+      "duration": "0.00",
+      "finished": "1707240900.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 111,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:36:00Z",
+      "duration": "0.01",
+      "finished": "1707240960.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 112,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:37:00Z",
+      "duration": "0.00",
+      "finished": "1707241020.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 113,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:38:00Z",
+      "duration": "0.00",
+      "finished": "1707241080.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 114,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:39:00Z",
+      "duration": "0.00",
+      "finished": "1707241140.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 115,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:40:00Z",
+      "duration": "0.00",
+      "finished": "1707241200.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 116,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:41:00Z",
+      "duration": "0.01",
+      "finished": "1707241260.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 117,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:42:00Z",
+      "duration": "0.01",
+      "finished": "1707241320.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 118,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:43:00Z",
+      "duration": "0.00",
+      "finished": "1707241380.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 119,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:44:00Z",
+      "duration": "0.00",
+      "finished": "1707241440.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 120,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:45:00Z",
+      "duration": "0.00",
+      "finished": "1707241500.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 121,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:46:00Z",
+      "duration": "0.00",
+      "finished": "1707241560.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 122,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:47:00Z",
+      "duration": "0.00",
+      "finished": "1707241620.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 123,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-06T17:48:00Z",
+      "duration": "0.01",
+      "finished": "1707241680.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 124,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:09:00Z",
+      "duration": "0.06",
+      "finished": "1707300540.06",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 125,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:10:00Z",
+      "duration": "0.01",
+      "finished": "1707300600.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 126,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:11:00Z",
+      "duration": "0.01",
+      "finished": "1707300660.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 127,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:12:00Z",
+      "duration": "0.01",
+      "finished": "1707300720.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 128,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:13:00Z",
+      "duration": "0.01",
+      "finished": "1707300780.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 129,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:27:00Z",
+      "duration": "0.05",
+      "finished": "1707301620.05",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 130,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:28:00Z",
+      "duration": "0.01",
+      "finished": "1707301680.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 131,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:29:00Z",
+      "duration": "0.01",
+      "finished": "1707301740.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 132,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:30:00Z",
+      "duration": "0.01",
+      "finished": "1707301800.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 133,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:31:00Z",
+      "duration": "0.01",
+      "finished": "1707301860.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 134,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:32:00Z",
+      "duration": "0.01",
+      "finished": "1707301920.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 135,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:33:00Z",
+      "duration": "0.01",
+      "finished": "1707301980.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 136,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:34:00Z",
+      "duration": "0.01",
+      "finished": "1707302040.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 137,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:35:00Z",
+      "duration": "0.01",
+      "finished": "1707302100.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 138,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:36:00Z",
+      "duration": "0.00",
+      "finished": "1707302160.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 139,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:37:00Z",
+      "duration": "0.01",
+      "finished": "1707302220.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 140,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:38:00Z",
+      "duration": "0.00",
+      "finished": "1707302280.00",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 141,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:39:00Z",
+      "duration": "0.01",
+      "finished": "1707302340.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 142,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:40:00Z",
+      "duration": "0.03",
+      "finished": "1707302400.03",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 143,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:41:00Z",
+      "duration": "0.03",
+      "finished": "1707302460.03",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 144,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:42:00Z",
+      "duration": "0.05",
+      "finished": "1707302520.05",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 145,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:43:00Z",
+      "duration": "4.68",
+      "finished": "1707302584.68",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 146,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:44:00Z",
+      "duration": "0.01",
+      "finished": "1707302640.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 148,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:45:00Z",
+      "duration": "0.02",
+      "finished": "1707302700.02",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 150,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:46:00Z",
+      "duration": "0.01",
+      "finished": "1707302760.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 152,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:47:00Z",
+      "duration": "0.01",
+      "finished": "1707302820.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 154,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:48:00Z",
+      "duration": "0.01",
+      "finished": "1707302880.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 156,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:49:00Z",
+      "duration": "0.04",
+      "finished": "1707302940.04",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 158,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:50:00Z",
+      "duration": "0.03",
+      "finished": "1707303000.03",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 160,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:51:00Z",
+      "duration": "0.01",
+      "finished": "1707303060.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 162,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:52:00Z",
+      "duration": "0.01",
+      "finished": "1707303120.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 164,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:53:00Z",
+      "duration": "0.02",
+      "finished": "1707303180.02",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 166,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:54:00Z",
+      "duration": "0.01",
+      "finished": "1707303240.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 168,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:55:00Z",
+      "duration": "0.01",
+      "finished": "1707303300.01",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 169,
+    "fields": {
+      "job": "my_job",
+      "status": "Executed",
+      "run_time": "2024-02-07T10:56:00Z",
+      "duration": "0.01",
+      "finished": "1707303360.01",
+      "exception": null,
+      "traceback": null
+    }
+  }
+]
