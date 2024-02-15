@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load media_tag %}
+
+{% if request.user.is_superuser or request.user|has_group:"manager" %}
+<h2 class="display-2 text-center mb-5">Мои рассылки</h2>
+<div class="row">
+    <div class="col-3 mb-5">
+        <div class="btn-group mb-1" role="group">
+            <a class="btn btn-warning" style="width: 10rem;"
+               href=" {% url 'mailing:create_mailing' %}">Создать рассылку</a>
+            <a class="btn btn-dark"
+               href="{% url 'mailing:logs' %}">Отчет</a>
+        </div>
+    </div>
+</div>
+{% else %}
+<h2 class="display-2 text-center mb-5">Все рассылки</h2>
+{% endif %}
+<div class="table-responsive">
+    <table class="table text-center">
+        <thead>
+        <tr>
+            {% if request.user.is_superuser or request.user|has_group:"manager" %}
+            <th scope="col">Пользователь</th>
+            {% endif %}
+            <th scope="col">Наименование рассылки</th>
+            <th scope="col">Время начала рассылки</th>
+            <th scope="col">Периодичность</th>
+            <th scope="col">Статус</th>
+            <th scope="col">Тема рассылки</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for object in object_list %}
+        <tr>
+            {% if request.user.is_superuser or request.user|has_group:"manager" %}
+            <td>{{ object.sending_owner }}</td>
+            {% endif %}
+            <td>{{ object.send_name }}</td>
+            <td>{{ object.send_start }}</td>
+            <td>{{ object.send_period }}</td>
+            <td>{{ object.send_status }}</td>
+            <td>{{ object.mail_title }}</td>
+            {% if not request.user|has_group:"manager" %}
+            <td>
+                <a class="btn btn-info" href="{% url 'mailing:edit_mailing' object.pk %}"
+                   role="button">Редактировать</a>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="{% url 'mailing:delete_mailing' object.pk %}"
+                   role="button">Удалить</a>
+            </td>
+            {% else %}
+                {% if object.is_active %}
+                     <td>
+                        <a class="btn btn-danger" href="{% url 'mailing:edit_mailing' object.pk %}"
+                           role="button">Деактивировать</a>
+                     </td>
+            {% else %}
+                    <td>
+                        <button type="button" class="btn btn-secondary" disabled>Отключена</button>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="{% url 'mailing:edit_mailing' object.pk %}"
+                           role="button">Активировать</a>
+                     </td>
+                {% endif %}
+            {% endif %}
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

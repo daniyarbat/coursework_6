@@ -1,0 +1,36 @@
+{% load static %}
+{% load media_tag %}
+
+<h5 class="my-0 mr-md-auto font-weight-normal">Cyberstore</h5>
+<nav class="d-inline-flex ms-5">
+    <a class="me-1 p-2 btn btn-light" href="{% url 'mailing:home' %}">Главная</a>
+
+    {% if not request.user.is_superuser %}
+        <a class="btn btn-light"
+           href="{% url 'mailing:mailing_list' %}">Все рассылки</a>
+        <a class="btn btn-light"
+           href="{% url 'mailing:users_table' %}">Все пользователи</a>
+    {% else %}
+        <a class="btn btn-light"
+           href="{% url 'mailing:mailing_list' %}">Мои рассылки</a>
+        <a class="btn btn-light"
+           href="{% url 'mailing:client_list' %}">Мои клиенты</a>
+        <a class="btn btn-light"
+           href="{% url 'mailing:message_list' %}">Мои сообщения</a>
+    {% endif %}
+
+    <a class="me-1 p-2 btn btn-light" href="{% url 'blog:blog' %}">Блог</a>
+    <a class="me-1 p-2 btn btn-light" href="/admin/">Админ</a>
+</nav>
+<nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    {% if user.is_authenticated %}
+    {% if user.first_name %}
+    <small class="text-muted mt-1 me-2 py-2">Привет {{ user.first_name }}!</small>
+    {% endif %}
+    <a class="me-2 py-2 btn btn-outline-secondary" href="{% url 'users:profile' %}">Профиль</a>
+    <a class="me-2 py-2 btn btn-outline-secondary" href="{% url 'users:logout' %}">Выйти</a>
+    {% else %}
+    <a class="me-2 py-2 btn btn-outline-secondary" href="{% url 'users:login' %}">Войти</a>
+    <a class="me-2 py-2 btn btn-outline-secondary" href="{% url 'users:register' %}">Регистрация</a>
+    {% endif %}
+</nav>
